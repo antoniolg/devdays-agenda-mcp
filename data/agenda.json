@@ -1,0 +1,13 @@
+[
+  { "id": "0930-registro", "inicio": "09:30", "fin": "09:40", "sala": "Salón de actos", "tipo": "otro", "titulo": "Registro", "ponentes": [] },
+  { "id": "0940-keynote", "inicio": "09:40", "fin": "09:55", "sala": "Salón de actos", "tipo": "otro", "titulo": "Keynote", "ponentes": [] },
+  { "id": "0955-agentes", "inicio": "09:55", "fin": "10:40", "sala": "Salón de actos", "tipo": "charla", "titulo": "Agentes: cuando el LLM no es lo importante", "ponentes": ["Máximo Fernández Núñez"] },
+  { "id": "1040-descanso", "inicio": "10:40", "fin": "11:05", "sala": "Salón de actos", "tipo": "otro", "titulo": "Descanso", "ponentes": [] },
+  { "id": "1105-de-prompts-a-contexto", "inicio": "11:05", "fin": "11:55", "sala": "Salón de actos", "tipo": "charla", "titulo": "De prompts a contexto: cómo conseguir que los agentes de IA programen mejor sin quemar tokens", "ponentes": ["Manuel Fernandez"] },
+  { "id": "1105-t21-squad", "inicio": "11:05", "fin": "13:05", "sala": "T21", "tipo": "taller", "titulo": "Squad: equipos de agentes IA para cualquier proyecto con GitHub Copilot", "ponentes": ["Rodrigo Liberoff", "Borja Piris de Castro"] },
+  { "id": "1105-t22-ai-engineering", "inicio": "11:05", "fin": "13:05", "sala": "T22", "tipo": "taller", "titulo": "Developer-centered AI engineering: build software with security, quality and governance", "ponentes": ["Dachi Gogotchuri"] },
+  { "id": "1155-github-te-representa", "inicio": "11:55", "fin": "12:45", "sala": "Salón de actos", "tipo": "charla", "titulo": "GitHub te representa: cómo mostrar lo que sabes hacer", "ponentes": ["Arantxa Delgado Ruiz"] },
+  { "id": "1245-mcp", "inicio": "12:45", "fin": "13:35", "sala": "Salón de actos", "tipo": "charla", "titulo": "Lo que Copilot no sabe hacer (todavía): MCP explicado con demos", "ponentes": ["Antonio Leiva"] },
+  { "id": "1335-tu-primer-dia", "inicio": "13:35", "fin": "14:25", "sala": "Salón de actos", "tipo": "charla", "titulo": "Tu primer día como desarrollador… y tu compañero es GitHub Copilot", "ponentes": ["Raúl Antón", "Mariano de la Fuente"] },
+  { "id": "1425-cierre", "inicio": "14:25", "fin": "14:30", "sala": "Salón de actos", "tipo": "otro", "titulo": "Cierre", "ponentes": [] }
+]
