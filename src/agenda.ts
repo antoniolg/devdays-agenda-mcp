@@ -49,3 +49,9 @@ export async function guardarEnMiAgenda(id: string): Promise<Sesion[]> {
 
   return agenda.filter((s) => ids.includes(s.id));
 }
+
+/** La sesión del salón de actos en curso a esa hora («HH:MM»), o null si no hay ninguna. */
+export async function charlaActual(hora: string): Promise<Sesion | null> {
+  const agenda = await leerAgenda();
+  return agenda.find((s) => s.sala === "Salón de actos" && s.inicio <= hora && hora < s.fin) ?? null;
+}
