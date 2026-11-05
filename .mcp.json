@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "agenda-devdays": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["src/server.ts"],
+      "tools": ["*"]
+    },
+    "context7": {
+      "type": "http",
+      "url": "https://mcp.context7.com/mcp",
+      "tools": ["*"]
+    }
+  }
+}

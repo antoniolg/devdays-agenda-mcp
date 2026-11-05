@@ -20,7 +20,7 @@ npm install
 npm run check   # arranca el servidor como lo hará VS Code y llama a una tool
 ```
 
-Abre la carpeta en VS Code. El fichero `.vscode/mcp.json` declara dos servidores:
+Abre la carpeta en VS Code. El fichero `.mcp.json` declara dos servidores. Es el formato que lee el motor de agentes de Copilot desde VS Code 1.143; si vienes de `.vscode/mcp.json`, VS Code te ofrece migrarlo:
 
 - `agenda-devdays`: este, que VS Code arranca con `node src/server.ts`.
 - `context7`: documentación actualizada de librerías, para que Copilot no programe con la API que aprendió en su entrenamiento.
@@ -32,7 +32,7 @@ Abre el chat de Copilot en modo agente y prueba:
 3. Añade al servidor una tool `charla_actual` que diga qué charla hay a una hora. Mira en Context7 cómo se hace con el SDK actual.
 4. ¿Qué charla hay a las 12:50?
 
-Después del paso 3, reinicia el servidor desde `.vscode/mcp.json` para que Copilot vea la tool nueva.
+Después del paso 3, reinicia el servidor para que Copilot vea la tool nueva: **MCP: List Servers** → `agenda-devdays` → **Restart Server**.
 
 La rama `final` tiene la tool `charla_actual` ya escrita, por si quieres comparar con lo que haga Copilot.
 
