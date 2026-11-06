@@ -1,6 +1,8 @@
 # La agenda de Dev Days, como servidor MCP
 
-**Antonio Leiva** · [YouTube](https://www.youtube.com/@devexpert_io) · [X](https://x.com/antonioleivag) · [devexpert.io](https://devexpert.io)
+[![YouTube](https://img.shields.io/badge/YouTube-@devexpert__io-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@devexpert_io)
+[![X](https://img.shields.io/badge/X-@antonioleivag-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/antonioleivag)
+[![Web](https://img.shields.io/badge/Web-devexpert.io-8957E5?style=for-the-badge&logo=googlechrome&logoColor=white)](https://devexpert.io)
 
 El código de la charla **«Lo que Copilot no sabe hacer (todavía): MCP explicado con demos»** (GitHub Dev Days Students Madrid, 6 de noviembre de 2026). Las slides están en [`slides.pdf`](slides.pdf).
 
