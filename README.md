@@ -1,5 +1,7 @@
 # La agenda de Dev Days, como servidor MCP
 
+**Antonio Leiva** · [YouTube](https://www.youtube.com/@devexpert_io) · [X](https://x.com/antonioleivag) · [devexpert.io](https://devexpert.io)
+
 El código de la charla **«Lo que Copilot no sabe hacer (todavía): MCP explicado con demos»** (GitHub Dev Days Students Madrid, 6 de noviembre de 2026). Las slides están en [`slides.pdf`](slides.pdf).
 
 Es un servidor MCP pequeño que le da a GitHub Copilot algo que no sabe: la agenda del evento. Tiene dos tools:
